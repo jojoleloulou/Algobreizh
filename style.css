@@ -1,0 +1,65 @@
+body {
+    width: auto;
+    height: auto;
+}
+.haut{
+    position: absolute;  
+    top: 0; left: 0; right: 0;
+    height: 15%;
+    color: #FFF8DC;
+    background-color: #9ACD32;
+    text-align:center;
+}
+button{
+    color: #9ACD32;
+    background-color: #FFF8DC;
+    width:109px;
+    height:auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.titre{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.nav{
+    position: absolute;
+    top: 15%; left: 0; right: 0; bottom: 5%;
+    text-align: center;
+    color: #9ACD32;
+    background-color: #FFF8DC;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin-left: 5px;
+    margin-right: 5px;
+    -webkit-overflow-scrolling: touch; 
+
+}
+.form{
+    position: absolute;
+    top: 30%; bottom: 30%; left:0; right:0;
+}
+.pas_inscri{
+    position: absolute;
+    bottom: 5px; left: 0;right: 0;
+}
+footer{
+    position: absolute;
+    height: 5%;
+    bottom: 0; left: 0; right:0;
+    text-align: center;    
+    color: #FFF8DC;
+    background-color: #9ACD32;
+}
+
+#connexion{
+    display: none;
+}
+#accueil{
+    display:block;
+}
+a{
+    position: absolute;
+    top:10%;bottom: 10%;left: 0;right: 0;
+    color: #FFF8DC;
+}
